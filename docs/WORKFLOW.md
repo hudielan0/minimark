@@ -2,6 +2,8 @@
 
 This workflow follows the sequence evidenced in VMark: capability preparation, runnable vertical slice, rapid small changes, independent audit, then structural gates learned from real failures.
 
+Every phase produces two parallel outputs: product evidence and a method card. The method card records what was learned, why the sequence was chosen, rejected alternatives, reusable steps, unresolved risks, and the decisions reserved for the human owner. See `METHOD.md`.
+
 ## Phase 0 — Capability preparation
 
 Deliverables:
@@ -49,4 +51,3 @@ Exit criterion: a fresh machine can install and complete the journey without dev
 For each reproducible failure: reproduce → add a regression test → fix → audit → classify the lesson as test, project rule, reusable skill, safety hook, or release gate.
 
 Exit criterion: the repository explains why every added control exists and the failure that justifies its continued cost.
-

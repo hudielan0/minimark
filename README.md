@@ -8,7 +8,7 @@ Open a Markdown file, edit it, preview it, save it, and recover unfinished work 
 
 ## Status
 
-Phase 0: product boundary and AI capabilities. No application code has been written yet.
+Phase 1: risk spikes. Durable save, restart recovery, sanitized Markdown preview, and a thin macOS desktop shell now have runnable evidence. This is not yet the user-ready MiniMark application.
 
 ## Development method
 
@@ -22,5 +22,4 @@ This repository is also a public learning record. It reconstructs the developmen
 6. Turn real failures into tests, rules, skills, or mechanical gates.
 7. Release small versions and learn from reproducible user reports.
 
-See [Product](docs/PRODUCT.md), [Workflow](docs/WORKFLOW.md), and [Testing seams](docs/TESTING-SEAMS.md).
-
+See [Product](docs/PRODUCT.md), [Workflow](docs/WORKFLOW.md), [Method learning log](docs/METHOD.md), and [Testing seams](docs/TESTING-SEAMS.md).
